@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:text="Connect with Defender"
+            android:id="@+id/textView" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lock/Unlock"
+            android:id="@+id/discoverDevices"
+            android:layout_centerHorizontal="true" android:layout_below="@+id/textView"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pull Bill of Lading"
+            android:id="@+id/lading"
+            android:layout_centerHorizontal="true" android:layout_below="@+id/discoverDevices"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download Defender Activity"
+            android:id="@+id/activity"
+            android:layout_centerHorizontal="true" android:layout_below="@+id/lading"/>
+</RelativeLayout>
