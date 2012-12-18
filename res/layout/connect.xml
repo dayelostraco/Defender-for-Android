@@ -12,18 +12,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Lock/Unlock"
-            android:id="@+id/discoverDevices"
+            android:id="@+id/lockUnlock"
             android:layout_centerHorizontal="true" android:layout_below="@+id/textView"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pull Bill of Lading"
-            android:id="@+id/lading"
-            android:layout_centerHorizontal="true" android:layout_below="@+id/discoverDevices"/>
+            android:id="@+id/billOfLading"
+            android:layout_centerHorizontal="true" android:layout_below="@+id/lockUnlock"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Download Defender Activity"
-            android:id="@+id/activity"
-            android:layout_centerHorizontal="true" android:layout_below="@+id/lading"/>
+            android:id="@+id/downloadActivity"
+            android:layout_centerHorizontal="true" android:layout_below="@+id/billOfLading"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discover Other Devices"
+            android:id="@+id/discoverOtherDevices" android:layout_centerHorizontal="true"
+            android:layout_below="@+id/downloadActivity"/>
 </RelativeLayout>
