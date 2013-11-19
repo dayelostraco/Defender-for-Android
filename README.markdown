@@ -1,5 +1,5 @@
-# SPARC Replay Services #
+# Bluetooth Defender for Android #
 
 ## Overview ##
 
-Contains the RESTful methods for interacting with SPARC Replay.
+Basic Bluetooth Android App that can search for available bluetooth devices, connect and send commands.
